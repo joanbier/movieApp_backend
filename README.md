@@ -36,24 +36,22 @@ MovieApp is a backend application built with **ASP.NET Core** for managing movie
         "DB_PASSWORD": "root",
         "DB_NAME": "MovieDB"
       }
-    }
+    };
     
    -in appsettings.json set connection string like this:
 
-  ```bash      
-  "ConnectionStrings": {
-    "MovieAppCS": "Server=${DB_SERVER};Port=${DB_PORT};Database=${DB_NAME};User=${DB_USER};Password=${DB_PASSWORD};"
-  },    
+   ```bash      
+   "ConnectionStrings": {"MovieAppCS": "Server=${DB_SERVER};Port=${DB_PORT};Database=${DB_NAME};User=${DB_USER};Password=${DB_PASSWORD};"};   
   
   4. **Run database migrations**:
 
-  ```bash      
-  dotnet ef database update
+     ```bash
+      dotnet ef database update
   
   5. **Run the application**:
 
-  ```bash      
-  dotnet run
+     ```bash      
+     dotnet run
   
   
   The application will be available at http://localhost:5157/swagger/index.html
