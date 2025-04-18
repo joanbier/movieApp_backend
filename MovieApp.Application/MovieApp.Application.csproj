@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MovieApp.Domain\MovieApp.Domain.csproj" />
+    </ItemGroup>
+
+<!--    <ItemGroup>-->
+<!--      <Reference Include="Microsoft.EntityFrameworkCore">-->
+<!--        <HintPath>..\..\..\.nuget\packages\microsoft.entityframeworkcore\8.0.0\lib\net8.0\Microsoft.EntityFrameworkCore.dll</HintPath>-->
+<!--      </Reference>-->
+<!--      <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">-->
+<!--        <HintPath>..\..\..\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>-->
+<!--      </Reference>-->
+<!--      <Reference Include="Microsoft.IdentityModel.Tokens">-->
+<!--        <HintPath>..\..\..\.nuget\packages\microsoft.identitymodel.tokens\7.0.3\lib\net8.0\Microsoft.IdentityModel.Tokens.dll</HintPath>-->
+<!--      </Reference>-->
+<!--      <Reference Include="System.IdentityModel.Tokens.Jwt">-->
+<!--        <HintPath>..\..\..\.nuget\packages\system.identitymodel.tokens.jwt\7.0.3\lib\net8.0\System.IdentityModel.Tokens.Jwt.dll</HintPath>-->
+<!--      </Reference>-->
+<!--    </ItemGroup>-->
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+        <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.0.0" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="12.0.1" />
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+      <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+      <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+      <PackageReference Include="MediatR" Version="12.5.0" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <InternalsVisibleTo Include="MovieApp.UnitTests" />
+    </ItemGroup>
+
+</Project>

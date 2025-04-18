@@ -1,0 +1,17 @@
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/bin/Debug/net8.0/MovieApp.Presentation.deps.json
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/bin/Debug/net8.0/MovieApp.Presentation.dll
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/bin/Debug/net8.0/MovieApp.Presentation.pdb
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/bin/Debug/net8.0/MovieApp.Application.dll
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/bin/Debug/net8.0/MovieApp.Domain.dll
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/bin/Debug/net8.0/MovieApp.Application.pdb
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/bin/Debug/net8.0/MovieApp.Domain.pdb
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/obj/Debug/net8.0/MovieApp.Presentation.csproj.AssemblyReference.cache
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/obj/Debug/net8.0/MovieApp.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/obj/Debug/net8.0/MovieApp.Presentation.AssemblyInfoInputs.cache
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/obj/Debug/net8.0/MovieApp.Presentation.AssemblyInfo.cs
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/obj/Debug/net8.0/MovieApp.Presentation.csproj.CoreCompileInputs.cache
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/obj/Debug/net8.0/MovieApp.2BEE8DBC.Up2Date
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/obj/Debug/net8.0/MovieApp.Presentation.dll
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/obj/Debug/net8.0/refint/MovieApp.Presentation.dll
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/obj/Debug/net8.0/MovieApp.Presentation.pdb
+/home/jbiernat/RiderProjects/MovieApp/MovieApp.Presentation/obj/Debug/net8.0/ref/MovieApp.Presentation.dll

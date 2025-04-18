@@ -1,0 +1,7 @@
+{
+  "MovieApp.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/jbiernat\/RiderProjects\/MovieApp\/MovieApp.Api",
+  "MovieApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/jbiernat\/RiderProjects\/MovieApp\/MovieApp.Application",
+  "MovieApp.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/jbiernat\/RiderProjects\/MovieApp\/MovieApp.Domain",
+  "MovieApp.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/jbiernat\/RiderProjects\/MovieApp\/MovieApp.Infrastructure",
+  "MovieApp.Presentation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/jbiernat\/RiderProjects\/MovieApp\/MovieApp.Presentation"
+}

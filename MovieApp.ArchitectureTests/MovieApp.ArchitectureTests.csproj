@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="coverlet.collector" Version="6.0.0"/>
+        <PackageReference Include="FluentAssertions" Version="8.0.1" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0"/>
+        <PackageReference Include="NetArchTest.Rules" Version="1.3.2" />
+        <PackageReference Include="xunit" Version="2.5.3"/>
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="Xunit"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MovieApp.Api\MovieApp.Api.csproj" />
+      <ProjectReference Include="..\MovieApp.Application\MovieApp.Application.csproj" />
+      <ProjectReference Include="..\MovieApp.Domain\MovieApp.Domain.csproj" />
+      <ProjectReference Include="..\MovieApp.Infrastructure\MovieApp.Infrastructure.csproj" />
+      <ProjectReference Include="..\MovieApp.Presentation\MovieApp.Presentation.csproj" />
+    </ItemGroup>
+
+</Project>
