@@ -58,9 +58,9 @@ MovieApp is a backend application built with **ASP.NET Core** for managing movie
   
   ## **Example of Endpoints**:
   
-  -GET /api/movies -get movies.
-  -POST /api/movies -add a movie.
-  -UPDATE /api/movies -update a movie.
-  -GET /api/movies/{id} -get a movie by id.
-  -DELETE /api/movies -remove a movie.
+  - GET /api/movies -get movies
+  - POST /api/movies -add a movie
+  - UPDATE /api/movies -update a movie
+  - GET /api/movies/{id} -get a movie by id
+  - DELETE /api/movies -remove a movie
   
