@@ -18,14 +18,15 @@ MovieApp is a backend application built with **ASP.NET Core** for managing movie
    cd movieApp_backend
    
 2. **Restore dependencies:**:
-3. 
-```bash
-dotnet restore
+
+   ```bash
+   dotnet restore
 
 3. **Set up the database connection
 
 -in launchSettings.json set your envs db e.g.
 
+   ```bash      
     "MovieApp.Api": {
       "commandName": "Project",
       "environmentVariables": {
